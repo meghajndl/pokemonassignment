@@ -193,7 +193,7 @@ function fetchBulbasaurAbility1() {
             return response.json()
         })
         .then(data => {
-            let effect = data.effect_entries[1].effect
+            let effect = data.effect_entries[0].effect
             let short_effect = data.effect_entries[1].short_effect
             let flavor_text = data.flavor_text_entries[0].flavor_text
             let output = `
@@ -403,7 +403,7 @@ function fetchGreninjaAbility1() {
         .then(data => {
             let effect = data.effect_entries[1].effect
             let short_effect = data.effect_entries[1].short_effect
-            let flavor_text = data.flavor_text_entries[2].flavor_text
+            let flavor_text = data.flavor_text_entries[6].flavor_text
             let output = `
                 <h5> Ability Name: torrent</h5>
                 <h5> Ability Effect: ${effect} </h5>
@@ -425,7 +425,7 @@ function fetchGreninjaAbility2() {
         .then(data => {
             let effect = data.effect_entries[1].effect
             let short_effect = data.effect_entries[1].short_effect
-            let flavor_text = data.flavor_text_entries[0].flavor_text
+            let flavor_text = data.flavor_text_entries[6].flavor_text
             let output = `
                 <h5> Ability Name: protean</h5>
                 <h5> Ability Effect: ${effect} </h5>
