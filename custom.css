@@ -1,0 +1,18 @@
+
+body{
+    text-align: center;
+  
+    color: blue;
+}
+
+img{
+    padding-top: 2%;
+}
+
+div:focus {
+    outline: 1px solid blue;
+}
+
+select:focus {
+    outline: 1px solid blue;
+}

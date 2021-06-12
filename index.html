@@ -1,0 +1,83 @@
+﻿        <!doctype html>
+
+        <html lang="en">
+
+        <head>
+            <meta charset="utf-8">
+
+            <title>PokeDatabase</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <link rel="stylesheet" type="text/css" href="custom.css" />
+
+            <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        </head>
+
+        <body>
+            <h1><strong>Pokemon Database</strong></h1>
+   
+            <div class="container ">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-2">
+
+                        <div id="fact-box" onclick="fetchPikachuSpecs()"></div>
+                    </div>
+                    <div class="col-md-2">
+                  
+                            <div id="fact-box2" onclick="fetchBulbasaurSpecs()"></div>
+
+                    </div>
+                    <div class="col-md-2">
+                
+                            <div id="fact-box3" onclick="fetchCharizardSpecs()"></div>
+
+                    </div>
+                    <div class="col-md-2">
+                    
+                            <div id="fact-box4" onclick="fetchGreninjaSpecs()"></div>
+
+                  
+                    </div>
+                    <div class="col-md-2">
+                    
+                            <div id="fact-box5" onclick="fetchLucarioSpecs()"></div>
+
+                 
+                    </div>
+                </div>
+                <div class="row"></div>
+                <div class="row ">
+                    <div class="col-md-6">
+                        <h1>Specs:</h1>
+                        <div id="specs-box">
+                            <h5> Type: </h5>
+                            <h5> ID:  </h5>
+                            <h5> Height: </h5>
+                            <h5> Weight: </h5>
+                            <h5> Attack :</h5>
+                            <h5> Defense :  </h5>
+                            <h5> Life :  </h5>
+                            <h5> Speed :  </h5>
+                            <h5> Abilities: </h5>
+                            <h5>URL: https://pokeapi.co/api/v2/pokemon </h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Abilities:</h1>
+                        <div id="abilities-box">
+
+                            <h5> Ability Name: </h5>
+                            <h5> Ability Effect:</h5>
+                            <h5> Short_Effect:  </h5>
+                            <h5> Flavour Text:  </h5>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+    </body>
+            <script src="index.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        </html>
