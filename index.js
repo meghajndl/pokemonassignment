@@ -4,12 +4,6 @@ fetchCharizard()
 fetchGreninja()
 fetchLucario()
 
-$("#nav a").click(function (e) {
-    e.preventDefault();
-    $(".toggle").hide();
-    var toShow = $(this).attr('href');
-    $(toShow).show();
-});
 
 function fetchPikachu() {
     const myRequest = `https://pokeapi.co/api/v2/pokemon/pikachu` 
